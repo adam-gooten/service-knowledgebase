@@ -1,0 +1,776 @@
+{
+  "id" : 1,
+  "name" : "Gooten Inc",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-25T15:31:28Z",
+  "lastModifiedAgent" : "structurizr-web/2848/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJHb290ZW4gSW5jIiB7CiAgICBtb2RlbCB7CiAgICAgICAgcGFydG5lclBsYXRmb3Jtc1N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJFeHRlcm5hbCBNZXJjaGFudCBQbGF0Zm9ybXMiICJTdG9yZXMgdXRpbGl6aW5nIGV4dGVybmFsIGVDb21tZXJjZSBQbGF0Zm9ybXMiICJFeHRlcm5hbCBTeXN0ZW0iCiAgICAgICAgbGVnYWN5T3JkZXJBcGlTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiTGVnYWN5IE9yZGVyIEFQSSIgIkxlZ2FjeSBPcmRlciBBUEkiICJFeHRlcm5hbCBTeXN0ZW0iCgpvcmRlclN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJPcmRlciBTeXN0ZW0iICJNYW5hZ2VzIE9yZGVycyIgewogICAgb3JkZXJTdG9yYWdlID0gY29udGFpbmVyICJPcmRlciBTdG9yYWdlIiAiU3RvcmVzIE9yZGVycyIgIkNvc21vc0RCL01vbmdvREIiICJEYXRhYmFzZSIKICAgIG9yZGVyQXVkaXRTdG9yYWdlID0gY29udGFpbmVyICJPcmRlciBBdWRpdCBTdG9yYWdlIiAiU3RvcmVzIE9yZGVyIEF1ZGl0IERhdGEiICJDb3Ntb3NEQi9Nb25nb0RCIiAiRGF0YWJhc2UiCgogICAgb3JkZXJBcGlDb250YWluZXIgPSBjb250YWluZXIgIk9yZGVyIEFQSSIgIlJlY2VpdmVzIE9yZGVycyBmb3IgYXN5bmNocm9ub3VzIFByb2Nlc3NpbmciICJBU1AuTkVUIENvcmUsIE9wZW5BUEkiIHsKICAgICAgICBvcmRlckNvbnRyb2xsZXJDb21wb25lbnQgPSBjb21wb25lbnQgIk9yZGVyIENvbnRyb2xsZXIiICJSZWNlaXZlcyBPcmRlcnMgZm9yIGFzeW5jaHJvbm91cyBwcm9jZXNzaW5nIiAiQVNQLk5FVCBDb3JlIEFQSSBDb250cm9sbGVyIgogICAgfQoKICAgIG9yZGVyQXBpQ29udGFpbmVyIC0+IG9yZGVyQXVkaXRTdG9yYWdlICJXcml0ZXMgQXVkaXQgRGF0YSIgIiIgInN5bmMiCiAgICBvcmRlckFwaUNvbnRhaW5lciAtPiBvcmRlclN0b3JhZ2UgIlJlYWRzICYgV3JpdGVzIE9yZGVyIERhdGEiICIiICJzeW5jIgp9CmNvbmZpZ3VyYXRpb25TeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQ29uZmlndXJhdGlvbiBTeXN0ZW0iICJNYW5hZ2VzIENvbmZpZ3VyYXRpb24iIHsKICAgIGNvbmZpZ3VyYXRpb25TdG9yYWdlQ29udGFpbmVyID0gY29udGFpbmVyICJDb25maWd1cmF0aW9uIFN0b3JhZ2UiICJTdG9yYWdlIGZvciBDb25maWd1cmF0aW9uIERhdGEiICJDb3Ntb3NEQi9Nb25nb0RCIiAiRGF0YWJhc2UiCiAgICBjb25maWd1cmF0aW9uQ2FjaGVDb250YWluZXIgPSBjb250YWluZXIgIkNvbmZpZ3VyYXRpb24gQ2FjaGUiICJDYWNoZSBTdG9yYWdlIGZvciBDb25maWd1cmF0aW9uIERhdGEiICJSZWRpcyIgIkRhdGFiYXNlIgoKICAgIGNvbmZpZ3VyYXRpb25BcGlDb250YWluZXIgPSBjb250YWluZXIgIkNvbmZpZ3VyYXRpb24gQVBJIiAiQVBJIGZvciBtYW5hZ2luZyBhbmQgcmV0cmlldmluZyBDb25maWd1cmF0aW9ucyIgIkFTUC5ORVQgQ29yZSIgewogICAgICAgIGNvbmZpZ3VyYXRpb25BcGlDb250cm9sbGVyQ29tcG9uZW50ID0gY29tcG9uZW50ICJDb25maWd1cmF0aW9uIENvbnRyb2xsZXIiICJFbmRwb2ludHMgZm9yIG1hbmdpbmcgY29uZmlndXJhdGlvbiIgIkFTUC5ORVQgQ29yZSBBUEkgQ29udHJvbGxlciIKICAgIH0KCiAgICBjb25maWd1cmF0aW9uQXBpQ29udGFpbmVyIC0+IGNvbmZpZ3VyYXRpb25DYWNoZUNvbnRhaW5lciAiUmVhZHMgJiBXcml0ZXMgQ2FjaGUgRGF0YSIgIiIgInN5bmMiCiAgICBjb25maWd1cmF0aW9uQXBpQ29udGFpbmVyIC0+IGNvbmZpZ3VyYXRpb25TdG9yYWdlQ29udGFpbmVyICJSZWFkcyAmIFdyaXRlcyBTb3VyY2UgRGF0YSIgIiIgInN5bmMiCn0KaW50ZWdyYXRpb25TeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiSW50ZWdyYXRpb24gU3lzdGVtIiAiSW50ZWdyYXRlcyB3aXRoIDNyZCBQYXJ0eSBTeXN0ZW1zIiB7CiAgICB3ZWJoaG9va1N0b3JhZ2VDb250YWluZXIgPSBjb250YWluZXIgIldlYmhvb2sgU3RvcmFnZSIgIlN0b3JlcyByZWNlaXZlZCBXZWJob29rcyBmb3IgRGlzYXN0ZXIgUmVjb3J2ZXJ5IGFuZCBBdWRpdCIgIkNvc21vc0RCIiAiRGF0YWJhc2UiCgogICAgb3JkZXJXZWJob29rUHJvY2Vzc29yQ29udGFpbmVyID0gY29udGFpbmVyICJPcmRlciBXZWJob29rIFByb2Nlc3NvciIgIlByb2Nlc3NlcyBXZWJob29rcyBjb250YWluaW5nIE9yZGVyIERhdGEiICIuTkVUIENvcmUiIHsKICAgICAgICBvcmRlck1hcHBlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiV2ViaG9vayBDb250cm9sbGVyIiAiUmVjZWl2ZXMgV2ViaG9va3MgZm9yIGFzeW5jaHJvbm91cyBwcm9jZXNzaW5nIiAiQVNQLk5FVCBDb3JlIEFQSSBDb250cm9sbGVyIgogICAgfQogICAgCiAgICB3ZWJob29rQXBpQ29udGFpbmVyID0gY29udGFpbmVyICJXZWJob29rIFNlcnZpY2UiICJSZWNlaXZlcyBXZWJob29rcyBmb3IgYXN5bmNocm9ub3VzIFByb2Nlc3NpbmciICJBU1AuTkVUIENvcmUsIE9wZW5BUEkiIHsKICAgICAgICB3ZWJob29rQ29udHJvbGxlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiV2ViaG9vayBDb250cm9sbGVyIiAiUmVjZWl2ZXMgV2ViaG9va3MgZm9yIGFzeW5jaHJvbm91cyBwcm9jZXNzaW5nIiAiQVNQLk5FVCBDb3JlIEFQSSBDb250cm9sbGVyIgogICAgfQoKICAgIHdlYmhvb2tBcGlDb250YWluZXIgLT4gb3JkZXJXZWJob29rUHJvY2Vzc29yQ29udGFpbmVyICJRdWV1ZXMgV2ViaG9va3MgZm9yIiAiS2Fma2EiCiAgICB3ZWJob29rQXBpQ29udGFpbmVyIC0+IHdlYmhob29rU3RvcmFnZUNvbnRhaW5lciAiU3RvcmVzIFdlYmhvb2tzIGluIiAiTW9uZ29EQiIgInN5bmMiCiAgICBvcmRlcldlYmhvb2tQcm9jZXNzb3JDb250YWluZXIgLT4gb3JkZXJBcGlDb250YWluZXIgIlF1ZXVlcyBPcmRlcnMgZm9yIiAiS2Fma2EiCn0KCnByb2R1Y3RTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiUHJvZHVjdCBTeXN0ZW0iICJNYW5hZ2VzIFByb2R1Y3RzIiB7CiAgICBwcm9kdWN0Q2FjaGVDb250YWluZXIgPSBjb250YWluZXIgIlByb2R1Y3QgQ2FjaGUiICJDYWNoZSBTdG9yYWdlIGZvciBQcm9kdWN0IERhdGEiICJSZWRpcyIgIkRhdGFiYXNlIgogICAgcHJvZHVjdFN0b3JhZ2VDb250YWluZXIgPSBjb250YWluZXIgIlByb2R1Y3QgU3RvcmFnZSIgIlN0b3JlcyBQcm9kdWN0cyIgIkNvc21vc0RCL01vbmdvREIiICJEYXRhYmFzZSIKICAgIHByb2R1Y3RBdWRpdFN0b3JhZ2VDb250YWluZXIgPSBjb250YWluZXIgInByb2R1Y3QgQXVkaXQgU3RvcmFnZSIgIlN0b3JlcyBQcm9kdWN0IEF1ZGl0IERhdGEiICJDb3Ntb3NEQi9Nb25nb0RCIiAiRGF0YWJhc2UiCiAgICAKICAgIHByb2R1Y3RBcGlDb250YWluZXIgPSBjb250YWluZXIgIlByb2R1Y3QgQVBJIiAiTWFuYWdlcyBQcm9kdWN0cyIgIkFTUC5ORVQgQ29yZSwgT3BlbkFQSSIgewogICAgICAgIHByb2R1Y3RDb250cm9sbGVyQ29tcG9uZW50ID0gY29tcG9uZW50ICJQcm9kdWN0IENvbnRyb2xsZXIiICJNYW5hZ2VzIFByb2R1Y3RzIiAiQVNQLk5FVCBDb3JlIEFQSSBDb250cm9sbGVyIgogICAgfQoKICAgIHByb2R1Y3RBcGlDb250YWluZXIgLT4gcHJvZHVjdEF1ZGl0U3RvcmFnZUNvbnRhaW5lciAiV3JpdGVzIFByb2R1Y3QgQXVkaXQgRGF0YSIgIiIgInN5bmMiCiAgICBwcm9kdWN0QXBpQ29udGFpbmVyIC0+IHByb2R1Y3RDYWNoZUNvbnRhaW5lciAiUmVhZHMgJiBXcml0ZXMgUHJvZHVjdCBDYWNoZSBEYXRhIiAiIiAic3luYyIKICAgIHByb2R1Y3RBcGlDb250YWluZXIgLT4gcHJvZHVjdFN0b3JhZ2VDb250YWluZXIgIlJlYWRzICYgV3JpdGVzIFByb2R1Y3QgU291cmNlIERhdGEiICIiICJzeW5jIgp9CgogICAgICAgIC8vIFN5c3RlbSBSZWxhdGlvbnNoaXBzCiAgICAgICAgaW50ZWdyYXRpb25TeXN0ZW0gLT4gY29uZmlndXJhdGlvbkFwaUNvbnRhaW5lciAiT2J0YWlucyBDb25maWd1cmF0aW9uIGZyb20iICJIVFRQUytKU09OIiAic3luYyIKICAgICAgICBpbnRlZ3JhdGlvblN5c3RlbSAtPiBvcmRlckFwaUNvbnRhaW5lciAiQ3JlYXRlcyBPcmRlcnMgdXNpbmciICJIVFRQUytKU09OIiAic3luYyIKICAgICAgICBvcmRlclN5c3RlbSAtPiBjb25maWd1cmF0aW9uQXBpQ29udGFpbmVyICJPYnRhaW5zIENvbmZpZ3VyYXRpb24gZnJvbSIgIkhUVFBTK0pTT04iICJzeW5jIgogICAgICAgIG9yZGVyU3lzdGVtIC0+IGxlZ2FjeU9yZGVyQXBpU3lzdGVtICJDcmVhdGVzIE9yZGVycyB1c2luZyIgIkhUVFBTK0pTT04iICJzeW5jIgogICAgICAgIG9yZGVyU3lzdGVtIC0+IHByb2R1Y3RTeXN0ZW0gIk9idGFpbnMgUHJvZHVjdCBEYXRhIGZyb20iICJIVFRQUytKU09OIiAic3luYyIKICAgICAgICBwcm9kdWN0U3lzdGVtIC0+IGNvbmZpZ3VyYXRpb25BcGlDb250YWluZXIgIk9idGFpbnMgQ29uZmlndXJhdGlvbiBmcm9tIiAiSFRUUFMrSlNPTiIgInN5bmMiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIC8qKgogICAgICAgICAqIFN5c3RlbSBMYW5kc2NhcGUgRGlhZ3JhbQogICAgICAgICAqLwogICAgICAgIHN5c3RlbUxhbmRzY2FwZSAiU3lzdGVtTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlIHBhcnRuZXJQbGF0Zm9ybXNTeXN0ZW0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCnN5c3RlbUNvbnRleHQgY29uZmlndXJhdGlvblN5c3RlbSAiQ29uZmlndXJhdGlvblN5c3RlbUNvbnRleHQiIHsKICAgIGluY2x1ZGUgKgogICAgZXhjbHVkZSAiKiAtPiBPcmRlclN5c3RlbSIKICAgIGV4Y2x1ZGUgIiogLT4gcHJvZHVjdFN5c3RlbSIKICAgIGF1dG9MYXlvdXQKfQoKY29udGFpbmVyIGNvbmZpZ3VyYXRpb25TeXN0ZW0gIkNvbmZpZ3VyYXRpb25TeXN0ZW0iIHsKICAgIGluY2x1ZGUgKgogICAgZXhjbHVkZSAiKiAtPiBPcmRlclN5c3RlbSIKICAgIGV4Y2x1ZGUgIiogLT4gcHJvZHVjdFN5c3RlbSIKICAgIGF1dG9MYXlvdXQKfQpzeXN0ZW1Db250ZXh0IGludGVncmF0aW9uU3lzdGVtICJJbnRlZ3JhdGlvblN5c3RlbUNvbnRleHQiIHsKICAgIGluY2x1ZGUgKgogICAgZXhjbHVkZSAiKiAtPiBPcmRlclN5c3RlbSIKICAgIGV4Y2x1ZGUgIiogLT4gcHJvZHVjdFN5c3RlbSIKICAgIGF1dG9MYXlvdXQKfQoKY29udGFpbmVyIGludGVncmF0aW9uU3lzdGVtICJJbnRlZ3JhdGlvblN5c3RlbSIgewogICAgaW5jbHVkZSAqCiAgICBpbmNsdWRlICIqIC0+IGludGVncmF0aW9uU3lzdGVtIgogICAgaW5jbHVkZSAiaW50ZWdyYXRpb25TeXN0ZW0gLT4gKiIKICAgIGF1dG9MYXlvdXQKfQpzeXN0ZW1Db250ZXh0IG9yZGVyU3lzdGVtICJPcmRlclN5c3RlbUNvbnRleHQiIHsKICAgIGluY2x1ZGUgKgogICAgZXhjbHVkZSAiKiAtPiAqIgogICAgaW5jbHVkZSAiKiAtPiBvcmRlclN5c3RlbSIKICAgIGluY2x1ZGUgIm9yZGVyU3lzdGVtIC0+ICoiCiAgICBhdXRvTGF5b3V0Cn0KCmNvbnRhaW5lciBvcmRlclN5c3RlbSAib3JkZXJTeXN0ZW0iIHsKICAgIGluY2x1ZGUgKgogICAgaW5jbHVkZSAiKiAtPiBvcmRlclN5c3RlbSIKICAgIGluY2x1ZGUgIm9yZGVyU3lzdGVtIC0+ICoiCiAgICBhdXRvTGF5b3V0Cn0Kc3lzdGVtQ29udGV4dCBwcm9kdWN0U3lzdGVtICJQcm9kdWN0U3lzdGVtQ29udGV4dCIgewogICAgaW5jbHVkZSAqCiAgICBleGNsdWRlICIqIC0+ICoiCiAgICBpbmNsdWRlICIqIC0+IHByb2R1Y3RTeXN0ZW0iCiAgICBpbmNsdWRlICJwcm9kdWN0U3lzdGVtIC0+ICoiCiAgICBhdXRvTGF5b3V0Cn0KCmNvbnRhaW5lciBwcm9kdWN0U3lzdGVtICJQcm9kdWN0U3lzdGVtIiB7CiAgICBpbmNsdWRlICoKICAgIGluY2x1ZGUgIiogLT4gcHJvZHVjdFN5c3RlbSIKICAgIGluY2x1ZGUgInByb2R1Y3RTeXN0ZW0gLT4gKiIKICAgIGF1dG9MYXlvdXQKfQoKc3R5bGVzIHsKICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgIGNvbG9yICNmZmZmZmYKICAgIH0KCiAgICBlbGVtZW50ICJDb21wb25lbnQiIHsKICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICBjb2xvciAjMDAwMDAwCiAgICB9CgogICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgfQoKICAgIGVsZW1lbnQgIkV4dGVybmFsIFN5c3RlbSIgewogICAgICAgIGJhY2tncm91bmQgIzk5OTk5OQogICAgICAgIGNvbG9yICNmZmZmZmYKICAgIH0KCiAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICBjb2xvciAjZmZmZmZmCiAgICB9CgogICAgcmVsYXRpb25zaGlwICJzeW5jIiB7CiAgICAgICAgZGFzaGVkIGZhbHNlCiAgICB9Cn0KICAgIH0KfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "29",
+      "tags" : "Element,Software System",
+      "name" : "Product System",
+      "description" : "Manages Products",
+      "relationships" : [ {
+        "id" : "45",
+        "tags" : "Relationship,sync",
+        "sourceId" : "29",
+        "destinationId" : "13",
+        "description" : "Obtains Configuration from",
+        "technology" : "HTTPS+JSON"
+      }, {
+        "id" : "46",
+        "sourceId" : "29",
+        "destinationId" : "10",
+        "description" : "Obtains Configuration from",
+        "technology" : "HTTPS+JSON",
+        "linkedRelationshipId" : "45"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "33",
+        "tags" : "Element,Container",
+        "name" : "Product API",
+        "description" : "Manages Products",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship,sync",
+          "sourceId" : "33",
+          "destinationId" : "32",
+          "description" : "Writes Product Audit Data"
+        }, {
+          "id" : "37",
+          "tags" : "Relationship,sync",
+          "sourceId" : "33",
+          "destinationId" : "31",
+          "description" : "Reads & Writes Product Source Data"
+        }, {
+          "id" : "36",
+          "tags" : "Relationship,sync",
+          "sourceId" : "33",
+          "destinationId" : "30",
+          "description" : "Reads & Writes Product Cache Data"
+        } ],
+        "technology" : "ASP.NET Core, OpenAPI",
+        "components" : [ {
+          "id" : "34",
+          "tags" : "Element,Component",
+          "name" : "Product Controller",
+          "description" : "Manages Products",
+          "technology" : "ASP.NET Core API Controller",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "32",
+        "tags" : "Element,Container,Database",
+        "name" : "product Audit Storage",
+        "description" : "Stores Product Audit Data",
+        "technology" : "CosmosDB/MongoDB"
+      }, {
+        "id" : "31",
+        "tags" : "Element,Container,Database",
+        "name" : "Product Storage",
+        "description" : "Stores Products",
+        "technology" : "CosmosDB/MongoDB"
+      }, {
+        "id" : "30",
+        "tags" : "Element,Container,Database",
+        "name" : "Product Cache",
+        "description" : "Cache Storage for Product Data",
+        "technology" : "Redis"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,External System",
+      "name" : "External Merchant Platforms",
+      "description" : "Stores utilizing external eCommerce Platforms",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System",
+      "name" : "Configuration System",
+      "description" : "Manages Configuration",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "name" : "Configuration API",
+        "description" : "API for managing and retrieving Configurations",
+        "relationships" : [ {
+          "id" : "15",
+          "tags" : "Relationship,sync",
+          "sourceId" : "13",
+          "destinationId" : "12",
+          "description" : "Reads & Writes Cache Data"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship,sync",
+          "sourceId" : "13",
+          "destinationId" : "11",
+          "description" : "Reads & Writes Source Data"
+        } ],
+        "technology" : "ASP.NET Core",
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Configuration Controller",
+          "description" : "Endpoints for manging configuration",
+          "technology" : "ASP.NET Core API Controller",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Database",
+        "name" : "Configuration Cache",
+        "description" : "Cache Storage for Configuration Data",
+        "technology" : "Redis"
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Database",
+        "name" : "Configuration Storage",
+        "description" : "Storage for Configuration Data",
+        "technology" : "CosmosDB/MongoDB"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,External System",
+      "name" : "Legacy Order API",
+      "description" : "Legacy Order API",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System",
+      "name" : "Integration System",
+      "description" : "Integrates with 3rd Party Systems",
+      "relationships" : [ {
+        "id" : "39",
+        "sourceId" : "17",
+        "destinationId" : "10",
+        "description" : "Obtains Configuration from",
+        "technology" : "HTTPS+JSON",
+        "linkedRelationshipId" : "38"
+      }, {
+        "id" : "27",
+        "sourceId" : "17",
+        "destinationId" : "6",
+        "description" : "Queues Orders for",
+        "technology" : "Kafka",
+        "linkedRelationshipId" : "25"
+      }, {
+        "id" : "28",
+        "sourceId" : "17",
+        "destinationId" : "3",
+        "description" : "Queues Orders for",
+        "technology" : "Kafka",
+        "linkedRelationshipId" : "25"
+      }, {
+        "id" : "40",
+        "tags" : "Relationship,sync",
+        "sourceId" : "17",
+        "destinationId" : "6",
+        "description" : "Creates Orders using",
+        "technology" : "HTTPS+JSON"
+      }, {
+        "id" : "38",
+        "tags" : "Relationship,sync",
+        "sourceId" : "17",
+        "destinationId" : "13",
+        "description" : "Obtains Configuration from",
+        "technology" : "HTTPS+JSON"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "21",
+        "tags" : "Element,Container",
+        "name" : "Webhook Service",
+        "description" : "Receives Webhooks for asynchronous Processing",
+        "relationships" : [ {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "21",
+          "destinationId" : "19",
+          "description" : "Queues Webhooks for",
+          "technology" : "Kafka"
+        }, {
+          "id" : "24",
+          "tags" : "Relationship,sync",
+          "sourceId" : "21",
+          "destinationId" : "18",
+          "description" : "Stores Webhooks in",
+          "technology" : "MongoDB"
+        } ],
+        "technology" : "ASP.NET Core, OpenAPI",
+        "components" : [ {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "Webhook Controller",
+          "description" : "Receives Webhooks for asynchronous processing",
+          "technology" : "ASP.NET Core API Controller",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container,Database",
+        "name" : "Webhook Storage",
+        "description" : "Stores received Webhooks for Disaster Recorvery and Audit",
+        "technology" : "CosmosDB"
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container",
+        "name" : "Order Webhook Processor",
+        "description" : "Processes Webhooks containing Order Data",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "6",
+          "description" : "Queues Orders for",
+          "technology" : "Kafka"
+        }, {
+          "id" : "26",
+          "sourceId" : "19",
+          "destinationId" : "3",
+          "description" : "Queues Orders for",
+          "technology" : "Kafka",
+          "linkedRelationshipId" : "25"
+        } ],
+        "technology" : ".NET Core",
+        "components" : [ {
+          "id" : "20",
+          "tags" : "Element,Component",
+          "name" : "Webhook Controller",
+          "description" : "Receives Webhooks for asynchronous processing",
+          "technology" : "ASP.NET Core API Controller",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "Order System",
+      "description" : "Manages Orders",
+      "relationships" : [ {
+        "id" : "44",
+        "tags" : "Relationship,sync",
+        "sourceId" : "3",
+        "destinationId" : "29",
+        "description" : "Obtains Product Data from",
+        "technology" : "HTTPS+JSON"
+      }, {
+        "id" : "42",
+        "sourceId" : "3",
+        "destinationId" : "10",
+        "description" : "Obtains Configuration from",
+        "technology" : "HTTPS+JSON",
+        "linkedRelationshipId" : "41"
+      }, {
+        "id" : "41",
+        "tags" : "Relationship,sync",
+        "sourceId" : "3",
+        "destinationId" : "13",
+        "description" : "Obtains Configuration from",
+        "technology" : "HTTPS+JSON"
+      }, {
+        "id" : "43",
+        "tags" : "Relationship,sync",
+        "sourceId" : "3",
+        "destinationId" : "2",
+        "description" : "Creates Orders using",
+        "technology" : "HTTPS+JSON"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "4",
+        "tags" : "Element,Container,Database",
+        "name" : "Order Storage",
+        "description" : "Stores Orders",
+        "technology" : "CosmosDB/MongoDB"
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "name" : "Order API",
+        "description" : "Receives Orders for asynchronous Processing",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship,sync",
+          "sourceId" : "6",
+          "destinationId" : "5",
+          "description" : "Writes Audit Data"
+        }, {
+          "id" : "9",
+          "tags" : "Relationship,sync",
+          "sourceId" : "6",
+          "destinationId" : "4",
+          "description" : "Reads & Writes Order Data"
+        } ],
+        "technology" : "ASP.NET Core, OpenAPI",
+        "components" : [ {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "Order Controller",
+          "description" : "Receives Orders for asynchronous processing",
+          "technology" : "ASP.NET Core API Controller",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,Database",
+        "name" : "Order Audit Storage",
+        "description" : "Stores Order Audit Data",
+        "technology" : "CosmosDB/MongoDB"
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2295,
+        "height" : 2516
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 1862,
+          "y" : 808
+        }, {
+          "x" : 1904,
+          "y" : 1408
+        }, {
+          "x" : 1904,
+          "y" : 1708
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "2",
+        "x" : 208,
+        "y" : 1408
+      }, {
+        "id" : "3",
+        "x" : 1262,
+        "y" : 808
+      }, {
+        "id" : "17",
+        "x" : 1600,
+        "y" : 208
+      }, {
+        "id" : "29",
+        "x" : 958,
+        "y" : 1408
+      }, {
+        "id" : "10",
+        "x" : 1637,
+        "y" : 2008
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "17",
+      "key" : "IntegrationSystemContext",
+      "order" : 4,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1616,
+        "height" : 1316
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "42"
+      }, {
+        "id" : "39"
+      } ],
+      "elements" : [ {
+        "id" : "3",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "17",
+        "x" : 958,
+        "y" : 208
+      }, {
+        "id" : "10",
+        "x" : 583,
+        "y" : 808
+      } ]
+    }, {
+      "softwareSystemId" : "29",
+      "key" : "ProductSystemContext",
+      "order" : 8,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 866,
+        "height" : 1916
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "44"
+      }, {
+        "id" : "46"
+      } ],
+      "elements" : [ {
+        "id" : "3",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "29",
+        "x" : 208,
+        "y" : 808
+      }, {
+        "id" : "10",
+        "x" : 208,
+        "y" : 1408
+      } ]
+    }, {
+      "softwareSystemId" : "10",
+      "key" : "ConfigurationSystemContext",
+      "order" : 2,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2366,
+        "height" : 1316
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "42"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "39"
+      } ],
+      "elements" : [ {
+        "id" : "3",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "17",
+        "x" : 958,
+        "y" : 208
+      }, {
+        "id" : "29",
+        "x" : 1708,
+        "y" : 208
+      }, {
+        "id" : "10",
+        "x" : 958,
+        "y" : 808
+      } ]
+    }, {
+      "softwareSystemId" : "3",
+      "key" : "OrderSystemContext",
+      "order" : 6,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2366,
+        "height" : 1916
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "44"
+      } ],
+      "elements" : [ {
+        "id" : "2",
+        "x" : 208,
+        "y" : 1408
+      }, {
+        "id" : "3",
+        "x" : 958,
+        "y" : 808
+      }, {
+        "id" : "17",
+        "x" : 958,
+        "y" : 208
+      }, {
+        "id" : "29",
+        "x" : 958,
+        "y" : 1408
+      }, {
+        "id" : "10",
+        "x" : 1708,
+        "y" : 1408
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "29",
+      "key" : "ProductSystem",
+      "order" : 9,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2608,
+        "height" : 1558
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "37"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "35"
+      } ],
+      "elements" : [ {
+        "id" : "33",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "30",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "31",
+        "x" : 1079,
+        "y" : 929
+      }, {
+        "id" : "32",
+        "x" : 1829,
+        "y" : 929
+      } ]
+    }, {
+      "softwareSystemId" : "10",
+      "key" : "ConfigurationSystem",
+      "order" : 3,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2366,
+        "height" : 2020
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "38"
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 583,
+        "y" : 1408
+      }, {
+        "id" : "12",
+        "x" : 1333,
+        "y" : 1408
+      }, {
+        "id" : "13",
+        "x" : 958,
+        "y" : 808
+      }, {
+        "id" : "3",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "17",
+        "x" : 958,
+        "y" : 208
+      }, {
+        "id" : "29",
+        "x" : 1708,
+        "y" : 208
+      } ]
+    }, {
+      "softwareSystemId" : "17",
+      "key" : "IntegrationSystem",
+      "order" : 5,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2054
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "26"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      } ],
+      "elements" : [ {
+        "id" : "3",
+        "x" : 1078,
+        "y" : 1487
+      }, {
+        "id" : "18",
+        "x" : 328,
+        "y" : 887
+      }, {
+        "id" : "19",
+        "x" : 1078,
+        "y" : 887
+      }, {
+        "id" : "21",
+        "x" : 703,
+        "y" : 287
+      } ]
+    }, {
+      "softwareSystemId" : "3",
+      "key" : "orderSystem",
+      "order" : 7,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2020
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "40"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "9"
+      } ],
+      "elements" : [ {
+        "id" : "4",
+        "x" : 329,
+        "y" : 1408
+      }, {
+        "id" : "5",
+        "x" : 1079,
+        "y" : 1408
+      }, {
+        "id" : "6",
+        "x" : 704,
+        "y" : 808
+      }, {
+        "id" : "17",
+        "x" : 704,
+        "y" : 208
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "External System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        } ],
+        "relationships" : [ {
+          "tag" : "sync",
+          "dashed" : false
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "IntegrationSystem"
+    }
+  }
+}

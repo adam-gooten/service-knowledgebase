@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: structurizr-mem-quota
+spec:
+  hard:
+    requests.mem: "512Mi"
+    limits.mem: "512Mi"

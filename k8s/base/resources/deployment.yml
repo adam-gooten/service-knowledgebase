@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: structurizr
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: structurizr
+  template:
+    metadata:
+      labels:
+        app: structurizr
+    spec:
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                topologyKey: kubernetes.io/hostname
+                labelSelector:
+                  matchExpressions:
+                    - key: app
+                      operator: In
+                      values:
+                        - hibiki-consumer
+      containers:
+        - name: structurizr
+          image: gooten.azurecr.io/structurizr
+          imagePullPolicy: IfNotPresent
+          resources:
+            limits:
+              memory: "500Mi"
+              cpu: "125m"
+              ephemeral-storage: "512Mi"
+          ports:
+            - containerPort: 8080
+          securityContext:
+            runAsUser: 0
+            runAsGroup: 0
+            privileged: true
+            readOnlyRootFilesystem: false
+          readinessProbe:
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            tcpSocket:
+              port: 8080
+          livenessProbe:
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            httpGet:
+              path: /workspace/diagrams
+              port: 8080

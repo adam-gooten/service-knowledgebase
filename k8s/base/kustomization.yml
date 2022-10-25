@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: knowledge
+
+commonLabels:
+  gooten.com/owner: metal-gear
+  app.kubernetes.io/part-of: infrastructure
+  app.kubernetes.io/managed-by: kustomization
+
+commonAnnotations:
+  lead-dev: Adam Noon
+  repository: https://github.com/printdotio/service-kb.git
+  jiraUrl: https://gooten.atlassian.net/jira/software/c/projects/TECH/issues
+  slackChannel: https://gooteninc.slack.com/archives/G010A4LBA2V
+
+resources:
+  - resources/deployment.yml
+  - resources/ingress.yml
+  - resources/service.yml

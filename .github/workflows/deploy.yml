@@ -1,0 +1,58 @@
+name: Deploy
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+env:
+  aks_cluster_name: dev-ci-aks-01
+  az_cluster_resource_group_name: dev-ci-aks-rsg
+  environment: development
+  namespace: knowledge
+
+jobs:
+  deploy_structurizr_k8s:
+    name: Deploy Structurizr K8s
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v2
+
+      - name: Azure Login
+        uses: azure/login@v1.4.3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUB_ID }}
+
+      - uses: azure/setup-kubectl@v3
+
+      - name: Set K8s context
+        uses: azure/aks-set-context@v3
+        with:
+          cluster-name: ${{ env.az_cluster_name }}
+          resource-group: ${{ env.az_cluster_resource_group_name }}
+          admin: true
+
+      - name: Create namespace
+        continue-on-error: true
+        run: kubectl create namespace ${{ env.namespace }} --dry-run=client -o yaml | kubectl apply -f -
+
+      - name: Create manifests
+        id: bake
+        uses: azure/k8s-bake@v2
+        with:
+          renderEngine: kustomize
+          kustomizationPath: k8s/overlays/${{ env.environment }}
+          kubectl-version: latest
+
+      - name: Deploy to AKS
+        uses: azure/k8s-deploy@v4
+        with:
+          namespace: ${{ env.namespace }}
+          action: deploy
+          strategy: basic
+          manifests: ${{ steps.bake.outputs.manifestsBundle }}
+          images: |
+            gooten.azurec.io/structurizr:latest
